@@ -1,0 +1,74 @@
+% LaTeX resume using res.cls
+\documentclass[line,margin]{res} 
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\topmargin=-0.25in
+\oddsidemargin -.25in
+\evensidemargin -.25in
+\textwidth=5.75in
+\itemsep=0in
+\parsep=0in
+
+\begin{document}
+
+\name{Kyle Carhart}
+%\address used twice to have two lines of address
+\address{800 State St. Apt. 230}
+\address{West Columbia, SC 29169}
+\phone{(631) 838-7540}
+
+\begin{resume}
+ 
+\section{EDUCATION} {\sl Bachelor of Science,} 
+				Computer Science \hfill Expected May 2018 \\
+                University of South Carolina, Columbia, SC \\
+                Cum. GPA: 3.933. Major GPA: 3.966
+                 
+\section{EXPERIENCE} {\sl Intern} \hfill 2017 - Present \\
+                University of South Carolina Information Security Team \hfill Columbia, SC
+                 \begin{itemize}  \itemsep -2pt % reduce space between items
+                 \item Develop python scripts that automate tasks involving migration and parsing of security tracking metrics through REST APIs.
+                 \item Manage critical asset databases to protect data and IT resources using IBM BigFix vulnerability tracking.
+                \end{itemize}
+                {\sl Golf Car Attendant} \hfill Summers 2015 - 2017\\
+                Ocean Lakes Family Campground \hfill Myrtle Beach, SC
+                 \begin{itemize}  \itemsep -2pt % reduce space between items
+                 \item Collaborated as a team to move, store, and organize over 900 golf cars.
+                 \item Identified problems, causes and determined corrective actions.
+                 
+                \end{itemize}
+
+\section{COMPUTER \\ SKILLS} {\sl Languages:} 
+				JavaScript ES6, HTML5, CSS3, Python, Java, 
+				C++, C\#, Shell/Bash, MySQL \\
+                {\sl Frameworks \& Libraries:}
+                Sass, Bootstrap, jQuery, Jekyll, Pug (Jade), Grunt, Lodash, React\\
+                {\sl Platforms \& Software:}
+                Visual Studio Code, Nginx, Node.js, Git, Android Studio, 
+                Webstorm, Photoshop, After Effects, Premiere, Microsoft Azure \\
+                {\sl Operating Systems:}
+                Windows, Linux
+                
+\section{PROJECTS} {\sl Personal Portfolio Webpage} \hfill kylecarhart.com \\
+				A personal portfolio webpage designed and developed using HTML, CSS, Javascript and several other libraries.\\[5pt]
+				{\sl Hive2Lime} \hfill github.com/kmcgamer/hive2lime \\
+				A python script that periodically migrates important case data from a Hive server to a LimeSurvey server for confirmed incidents.\\[5pt]
+				{\sl USC Discord Bot} \hfill github.com/kmcgamer/usc\_bot \\
+				A chat messenger bot for the University of South Carolina eSports club that is designed to manage role tiers, display messages, and authenticate students over email.\\[5pt]
+				{\sl Cupboard} \hfill github.com/sccapstone/cupboard \\
+				An android application to manage foods, recipes, and shopping lists. Powered by Firebase Authentication \& Realtime Database.\\[5pt]
+				{\sl AzureREST} \hfill github.com/kmcgamer/azurerest \\
+				A python module for writing files to a Microsoft Azure server through the REST API.
+ 
+\section{AWARDS} Academic Scholar - Distinction Award (Woodrow) \\
+				President's \& Dean's List \\  
+				King's Park White K
+
+\section{EXTRA-CURRICULAR}
+				President of the USC Gamecock Quidditch Club \\
+				Officer of the USC eSports Club \\
+				Captain of the USC eSports Overwatch \& Counter Strike team \\
+				Association for Computing Machinery Club Member \\
+				President of High School Year Book Club
+\end{resume}
+\end{document}
