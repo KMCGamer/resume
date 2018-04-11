@@ -1,5 +1,6 @@
 % LaTeX resume using res.cls
-\documentclass[line,margin]{res} 
+\documentclass[line,margin]{res}
+\usepackage[hidelinks]{hyperref}
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
 %\usepackage{newcent}   % uses new century schoolbook postscript font 
 \topmargin=-0.25in
@@ -21,46 +22,48 @@
  
 \section{EDUCATION} {\sl Bachelor of Science,} 
 				Computer Science \hfill Expected May 2018 \\
-                University of South Carolina, Columbia, SC \\
-                Cum. GPA: 3.933. Major GPA: 3.966
+                University of South Carolina \hfill Columbia, SC \\
+                GPA: Cum: 3.933. Major: 3.966 \\
+                Honors: Magna Cum Laude. Phi Beta Kappa.
                  
 \section{EXPERIENCE} {\sl Intern} \hfill 2017 - Present \\
                 University of South Carolina Information Security Team \hfill Columbia, SC
                  \begin{itemize}  \itemsep -2pt % reduce space between items
-                 \item Develop python scripts that automate tasks involving migration and parsing of security tracking metrics through REST APIs.
+                 \item Develop Python scripts that automate tasks involving migration and parsing of security tracking metrics through REST APIs.
                  \item Manage critical asset databases to protect data and IT resources using IBM BigFix vulnerability tracking.
                 \end{itemize}
-                {\sl Golf Car Attendant} \hfill Summers 2015 - 2017\\
-                Ocean Lakes Family Campground \hfill Myrtle Beach, SC
-                 \begin{itemize}  \itemsep -2pt % reduce space between items
-                 \item Collaborated as a team to move, store, and organize over 900 golf cars.
-                 \item Identified problems, causes and determined corrective actions.
+                %{\sl Golf Car Attendant} \hfill Summers 2015 - 2017\\
+                %Ocean Lakes Family Campground \hfill Myrtle Beach, SC
+                 %\begin{itemize}  \itemsep -2pt % reduce space between items
+                 %\item Collaborated as a team to move, store, and organize over 900 golf cars.
+                 %\item Identified problems, causes and determined corrective actions.
                  
-                \end{itemize}
+                %\end{itemize}
 
 \section{COMPUTER \\ SKILLS} {\sl Languages:} 
 				JavaScript ES6, HTML5, CSS3, Python, Java, 
 				C++, C\#, Shell/Bash, MySQL \\
                 {\sl Frameworks \& Libraries:}
-                Sass, Bootstrap, jQuery, Jekyll, Pug (Jade), Grunt, Lodash, React\\
+                Sass, Bootstrap, jQuery, Jekyll, Pug, Grunt, Lodash, React Native\\
                 {\sl Platforms \& Software:}
-                Visual Studio Code, Nginx, Node.js, Git, Android Studio, 
-                Webstorm, Photoshop, After Effects, Premiere, Microsoft Azure \\
+                Node.js, Git, Visual Studio Code, Nginx, Android Studio, 
+                Webstorm, Photoshop, After Effects, Premiere\\
                 {\sl Operating Systems:}
                 Windows, Linux
                 
-\section{PROJECTS} {\sl Personal Portfolio Webpage} \hfill kylecarhart.com \\
-				A personal portfolio webpage designed and developed using HTML, CSS, Javascript and several other libraries.\\[5pt]
-				{\sl Hive2Lime} \hfill github.com/kmcgamer/hive2lime \\
-				A python script that periodically migrates important case data from a Hive server to a LimeSurvey server for confirmed incidents.\\[5pt]
-				{\sl USC Discord Bot} \hfill github.com/kmcgamer/usc\_bot \\
-				A chat messenger bot for the University of South Carolina eSports club that is designed to manage role tiers, display messages, and authenticate students over email.\\[5pt]
-				{\sl Cupboard} \hfill github.com/sccapstone/cupboard \\
-				An android application to manage foods, recipes, and shopping lists. Powered by Firebase Authentication \& Realtime Database.\\[5pt]
-				{\sl AzureREST} \hfill github.com/kmcgamer/azurerest \\
-				A python module for writing files to a Microsoft Azure server through the REST API.
+\section{PROJECTS} {\sl USC Discord Bot} \hfill \href{https://www.github.com/kmcgamer/usc_bot}{github.com/kmcgamer/usc\_bot} \\
+				A chat messenger bot for the USC eSports club designed to manage role tiers, display messages, and authenticate students over email. Developed using Javascript with a focus on asynchronous development patterns. \\[5pt]
+				{\sl Personal Portfolio Webpage} \hfill \href{https://www.kylecarhart.com}{kylecarhart.com} \\
+				A website designed and developed using HTML, CSS, and Javascript on a personal VPS with Nginx. Utilizes SSL certificates and allows for contact form submissions.\\[5pt]
+				{\sl Hive2Lime} \hfill \href{https://www.github.com/kmcgamer/hive2lime}{github.com/kmcgamer/hive2lime} \\
+				A python script that periodically migrates important case data from a Hive server to a LimeSurvey server for confirmed incidents. Handles parsing and importing of data into a SQL database.\\[5pt]
+				{\sl Cupboard} \hfill \href{https://www.github.com/sccapstone/cupboard}{github.com/sccapstone/cupboard} \\
+				An Android application to manage your foods, recipes, and shopping lists. Developed with Java using Firebase Authentication \& Realtime Database. Employs RXJava2 for reactive programming with data streams, as well as local SQLite database manipulation. \\[5pt]
+				{\sl AzureREST} \hfill \href{https://www.github.com/kmcgamer/azurerest}{github.com/kmcgamer/azurerest} \\
+				A python module for writing files to a Microsoft Azure server through the Azure REST API. Handles header parsing and base64 encoding for authorization.
  
-\section{AWARDS} Academic Scholar - Distinction Award (Woodrow) \\
+\section{AWARDS}Phi Beta Kappa Initiate \\
+				Academic Scholar - Distinction Award (Woodrow) \\
 				President's \& Dean's List \\  
 				King's Park White K
 

@@ -209,6 +209,8 @@
 \newtoks\@ta			    % used by \@append
 \newtoks\undefined@token\undefined@token={}
 
+\usepackage[hidelinks]{hyperref}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % this is used to print the name and address at the top of
 % the page with a hline in between
@@ -225,8 +227,8 @@
       {\vbox
       	{
       	   Phone: 631-838-7540 \hspace{311pt} \@addressone \\[-1pt]
-      	   Email: kcarhart@email.sc.edu \hspace{258pt} \@addresstwo \\[-1pt]
-      	   Web: kylecarhart.com \\[-25pt]
+      	   Email: \href{mailto:kcarhart@email.sc.edu}{kcarhart@email.sc.edu} \hspace{258pt} \@addresstwo \\[-1pt]
+      	   Web: \href{https://www.kylecarhart.com}{kylecarhart.com}\\[-25pt]
 		}
       }
   }
