@@ -9,6 +9,7 @@
 %
 % \documentstyle{res}
 %
+
 % Copyright (c) 1988 by Michael DeCorte
 % Permission to copy all or part of this work is granted, provided
 % that the copies are not made or distributed for resale, and that
